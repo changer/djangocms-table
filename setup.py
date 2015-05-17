@@ -24,12 +24,12 @@ CLASSIFIERS = [
 ]
 
 setup(
-    name='djangocms-table',
+    name='djangocms-table-changer',
     version=__version__,
-    description='Table Plugin for django CMS',
-    author='Divio AG',
-    author_email='info@divio.ch',
-    url='https://github.com/divio/djangocms-table',
+    description='Table Plugin for django CMS, fork from divio with python 3 and django 1.7 migrations support',
+    author='Jos van Velzen',
+    author_email='support',
+    url='https://github.com/changer/djangocms-table',
     packages=['djangocms_table', 'djangocms_table.migrations'],
     install_requires=INSTALL_REQUIRES,
     license='LICENSE.txt',
